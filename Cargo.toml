@@ -1,0 +1,10 @@
+[package]
+name = "transcribe_wav"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cognitive-services-speech-sdk-rs = "1.0.0"
+dotenv = "0.15.0"
+serde_json = "1.0.64"
+tokio = { version = "1.6.1", features = ["full"] }
